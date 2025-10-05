@@ -1,0 +1,6 @@
+[env]
+RDKAFKA_BUILD_TARGET = "dynamic"
+RDKAFKA_DYNAMIC_LINKING = "1"
+RDKAFKA_LIB_DIR = "C:\\vcpkg\\installed\\x64-windows\\bin"
+RDKAFKA_INCLUDE_DIR = "C:\\vcpkg\\installed\\x64-windows\\include"
+RUSTFLAGS = "-C link-args=/LIBPATH:C:\\vcpkg\\installed\\x64-windows\\lib"
